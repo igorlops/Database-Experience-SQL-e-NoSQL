@@ -39,11 +39,14 @@ procedimentos é dividido em quatro propriedades, e são elas:
 Atomicidade: As ações que compõe a ação da transação devem ser concluídas
  com sucesso para ser efetivada. Se esta transação falhar, será feito o 
 rollback.
+
 Consistência: Todas as regras/restrições descritas no banco de dados 
 devem ser obedecidas garantindo que o banco de dados passe de uma forma 
 consistente para outra forma consistente.
+
 Isolamento: Neste caso, a propriedade de isolamento garante que a 
 transição não será interferida por nenhuma outra transação concorrente.
+
 Durabilidade: Os resultados de uma transação são permanentes, ou seja, o 
 que foi salvo não será mais perdido.
 
